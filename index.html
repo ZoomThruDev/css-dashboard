@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/sprites.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,14 +32,14 @@
         <div class="row">
           <div class="col-md-10">
             <p class="right nav-text">MINI of Raleigh</p>
-            <img class="right" src="img/spacer-menu.png">
           </div>
           <div class="col-md-1">
-            <img src="img/icon-help-white.png">
-            <img src="img/spacer-menu.png">
+            <img class="left" src="img/spacer-menu.png">
+            <img class="utility-help" src="img/icon-help-white.png">
+            <img class= "right" src="img/spacer-menu.png">
           </div>
           <div class="col-md-1">
-            <img src="img/icon-settings-white.png">
+            <img class="utility-settings" src="img/icon-settings-white.png">
           </div>
         </div>
       </div>
@@ -46,18 +47,57 @@
     <!-- End utility nav -->
 
     <!-- Menu nav -->
-    <div class="container-fluid dark-blue">
+    <div class="container-fluid dark-blue menu-nav">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+          <div class="col-md-3">
+            <img src="img/background-menu.png">
+          </div>
+          <!-- Dashboard -->
+          <div class="col-md-1">
+            <a href="#">
+              <div class="dashboard icon-dashboard-green"></div>
+            </a>
+            <div class="dashboard-shadow icon-shadow"></div>
+            <img class="marker" src="img/icon-marker.png">
+          </div>
+          <!-- Customers -->
+          <div class="col-md-1">
+            <a href="#">
+              <div class="customers icon-customers-green"></div>
+            </a>
+            <div class="customers-shadow icon-shadow"></div>
+          </div>
+          <!-- Messages -->
+          <div class="col-md-1">
+            <a href="#">
+              <div class="messages icon-messages-green"></div>
+            </a>
+            <div class="messages-shadow icon-shadow"></div>
+          </div>
+          <!-- Promotions -->
+          <div class="col-md-1">
+            <a href="#">
+              <div class="promotions icon-promotions-green"></div>
+            </a>
+            <div class="promotions-shadow icon-shadow"></div>
+          </div>
+          <!-- Page creator -->
+          <div class="col-md-1">
+            <a href="#">
+              <div class="page-creator icon-page-creator-green"></div>
+            </a>
+            <div class="page-creator-shadow icon-shadow"></div>
+          </div>
+          <!-- Analytics -->
+          <div class="col-md-1">
+            <a href="#">
+              <div class="analytics icon-analytics-green"></div>
+            </a>
+            <div class="analytics-shadow icon-shadow"></div>
+          </div>
+          <div class="col-md-3">
+            <!-- Placeholder -->
           </div>
         </div>
         <!-- End menu nav -->

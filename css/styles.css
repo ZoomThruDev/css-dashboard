@@ -35,12 +35,93 @@ p {
   color: #fff;
 }
 
-/* Begin global classes here */
+/* Global classes */
 .dark-blue { background-color: #114570; }
 .green { background-color: #31cc66; }
 .light-blue { background-color: #2398f4; }
 .left { float: left; }
 .right { float: right; }
+/* End global classes */
+
+/* Utility nav */
+.utility-help {
+
+}
+.utility-settings {
+
+}
+/* End utility nav */
+
+/* Menu sprites */
+.icon-dashboard-green:hover {
+  background: url(../img/sprites.png) no-repeat;
+	background-position: 0 -1px ;
+}
+.icon-customers-green:hover {
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -60px 0;
+}
+.icon-messages-green:hover {
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -125px 0;
+}
+.icon-promotions-green:hover {
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -186px 0;
+}
+.icon-page-creator-green:hover {
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -240px 0;
+}
+.icon-analytics-green:hover {
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -288px 0;
+}
+/* End menu sprites */
+
+/* Menu positioning */
+.menu-nav {
+  padding: 0 0 0 0
+}
+.marker {
+  
+}
+.dashboard {
+  margin-top: 1em;
+}
+.dashboard-shadow {
+  margin-top: 1em;
+}
+.customers {
+  margin-top: 1.5em;
+}
+.customers-shadow {
+  margin-top: 1.5em;
+}
+.messages {
+  margin-top: 1.5em;
+}
+.messages-shadow {
+  margin-top: 1em;
+}
+.promotions {
+  margin-top: 1.25em;
+}
+.promotions-shadow {
+  margin-top: 1em;
+}
+.page-creator {
+  margin-top: 1.25em;
+}
+.page-creator-shadow {
+  margin-top: 1em;
+}
+.analytics {
+  margin-top: 1.25em;
+}
+.analytics-shadow {
+  margin-top: 1em;
+}
 
 .announcement {
   color: #777;

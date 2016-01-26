@@ -1,0 +1,81 @@
+.icon-dashboard-green, .icon-customers-green, .icon-messages-green, .icon-promotions-green, .icon-page-creator-green, .icon-analytics-green, .icon-dashboard-blue, .icon-analytics-blue, .icon-customers-blue, .icon-messages-blue, .icon-page-creator-blue, .icon-promotions-blue, .icon-shadow{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.icon-dashboard-green{
+	background-position: 0 -99.984375px ;
+	width: 58px;
+	height: 58px;
+}
+
+.icon-customers-green{
+	background-position: -60px -99.9921875px ;
+	width: 62px;
+	height: 42px;
+}
+
+.icon-messages-green{
+	background-position: -125px -100px ;
+	width: 57px;
+	height: 48px;
+}
+
+.icon-promotions-green{
+	background-position: -185px -100px ;
+	width: 50px;
+	height: 50px;
+}
+
+.icon-page-creator-green{
+	background-position: -240px -100px ;
+	width: 45px;
+	height: 50px;
+}
+
+.icon-analytics-green{
+	background-position: -287px -100px ;
+	width: 42px;
+	height: 50px;
+}
+
+.icon-dashboard-blue{
+	background-position: 0 -1px ;
+	width: 58px;
+	height: 58px;
+}
+
+.icon-analytics-blue{
+	background-position: -288px 0;
+	width: 42px;
+	height: 50px;
+}
+
+.icon-customers-blue{
+	background-position: -60px 0;
+	width: 62px;
+	height: 42px;
+}
+
+.icon-messages-blue{
+	background-position: -125px 0;
+	width: 57px;
+	height: 48px;
+}
+
+.icon-page-creator-blue{
+	background-position: -240px 0;
+	width: 45px;
+	height: 50px;
+}
+
+.icon-promotions-blue{
+	background-position: -186px 0;
+	width: 50px;
+	height: 50px;
+}
+
+.icon-shadow{
+	background-position: -350px 0;
+	width: 60px;
+	height: 5px;
+}
