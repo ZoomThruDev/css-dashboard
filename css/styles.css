@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'myriad-pro-regular';
+  src:  url('myriad-pro-regular.ttf') format('ttf'),
+}
+
+a {
+  color: #2398f4;
+}
+a:hover {
+  color: #777;
+  text-decoration: none;
+}
+body {
+  font-family: "myriad-pro-regular" sans-serif;
+}
+h1 {
+  color: #fff;
+}
+h2 {
+  color: #2398f4;
+  margin-bottom: 0.5em;
+}
+h3 {
+  color: #2398f4;
+}
+h5 {
+  color: #777;
+  margin: 0;
+}
+input {
+  width:100%;
+  margin:1.5em 0 1.5em 0;
+}
+p {
+  color: #fff;
+}
+
+/* Begin global classes here */
+.dark-blue { background-color: #114570; }
+.green { background-color: #31cc66; }
+.light-blue { background-color: #2398f4; }
+.left { float: left; }
+.right { float: right; }
+
+.announcement {
+  color: #777;
+  padding-top: 1em;
+}
+.announcements-menu {
+  margin-top: 2em;
+}
+.announcements-title {
+  color: #fe7f13;
+}
+
+.border {
+  border: 1px;
+  border-color: #ccc;
+  border-style: solid;
+}
+
+.dashboard-menu {
+  margin-top: 2em;
+  border-radius:10px;
+}
+.heading {
+  margin: 0;
+}
+.nav-text {
+  margin-top: 1em;
+}
+.recommendation {
+  color: #777;
+  font-size:12pt;
+  margin-bottom: 1.5em;
+}
+.recommendation-type {
+  color: #777;
+  font-size: 8pt;
+}
+.slider {
+  border-radius: 5px;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
