@@ -2,7 +2,6 @@
   font-family: 'myriad-pro-regular';
   src:  url('myriad-pro-regular.ttf') format('ttf'),
 }
-
 a {
   color: #2398f4;
 }
@@ -29,7 +28,6 @@ h5 {
 }
 input {
   width:100%;
-  margin:1.5em 0 1.5em 0;
 }
 p {
   color: #fff;
@@ -44,11 +42,20 @@ p {
 /* End global classes */
 
 /* Utility nav */
+.left-utility-spacer {
+  margin: 0.5em 0 0 -1em;
+}
+.right-utility-spacer {
+  margin: 0.5em 0 0 0;
+}
+.utility-text {
+  margin-top: 1em;
+}
 .utility-help {
-
+  margin: 1em 0 0 1.25em;
 }
 .utility-settings {
-
+  margin-top: 1em;
 }
 /* End utility nav */
 
@@ -84,7 +91,7 @@ p {
   padding: 0 0 0 0
 }
 .marker {
-  
+  /* placeholder until figure out marker */
 }
 .dashboard {
   margin-top: 1em;
@@ -122,33 +129,71 @@ p {
 .analytics-shadow {
   margin-top: 1em;
 }
+/* End Menu */
 
+/* Page title */
+.dashboard-menu {
+  margin: 2em 0 0 0;
+  border-radius: 10px;
+}
+.menu-title {
+  margin: 0.33em 0 0.33em 0;
+}
+.search {
+  border: 0;
+  height: 1.75em;
+  border-radius: 2px;
+  margin:1.5em 0 1.5em 0;
+}
+/* End page title */
+
+/* Announcements */
 .announcement {
   color: #777;
   padding-top: 1em;
+}
+.announcements-border {
+  border: 1px;
+  border-color: #ccc;
+  border-style: solid;
 }
 .announcements-menu {
   margin-top: 2em;
 }
 .announcements-title {
-  color: #fe7f13;
-}
-
-.border {
-  border: 1px;
-  border-color: #ccc;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-right: 1px;
   border-style: solid;
+  border-color: #ccc;
+  color: #fe7f13;
+  margin-bottom: 0px;
+}
+/* End announcements */
+
+/* Sidebar */
+.sidebar-border {
+  border-top: 0px;
+  border-left: 1px;
+  border-bottom: 0px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: #ccc;
 }
 
-.dashboard-menu {
-  margin-top: 2em;
-  border-radius:10px;
+/* Tasks menu */
+.tasks-border {
+
 }
+.tasks-settings {
+  margin: 2em 1em 0 0;
+}
+/* End tasks menu */
+
+/* Recommendations menu */
 .heading {
   margin: 0;
-}
-.nav-text {
-  margin-top: 1em;
 }
 .recommendation {
   color: #777;
@@ -159,8 +204,34 @@ p {
   color: #777;
   font-size: 8pt;
 }
+/* End recommendations menu */
+
+/* Analytics menu */
+
+/* Bar graph */
+/* End bar graph */
+
+/* Channels and referrals */
+/* End channels and referrals */
+
+/* Social media key */
+/* End Social media key */
+
+/* End analytics menu */
+
+/* Contacts and Customers */
+/* End Contacts and Customers */
+
+/* Did you know */
 .slider {
   border-radius: 5px;
   padding-top: 2em;
   padding-bottom: 1em;
 }
+/* End Did you know */
+
+/* Promotions */
+/* End Promotions */
+
+/* Status bar */
+/* End Status bar */

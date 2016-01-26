@@ -30,16 +30,20 @@
     <div class="container-fluid light-blue">
       <div class="container">
         <div class="row">
-          <div class="col-md-10">
-            <p class="right nav-text">MINI of Raleigh</p>
+          <div class="col-md-10 col-xs-8">
+            <p class="right utility-text">MINI of Raleigh</p>
           </div>
-          <div class="col-md-1">
-            <img class="left" src="img/spacer-menu.png">
-            <img class="utility-help" src="img/icon-help-white.png">
-            <img class= "right" src="img/spacer-menu.png">
+          <div class="col-md-1 col-xs-2">
+            <img class="left left-utility-spacer" src="img/spacer-menu.png">
+            <a href="#">
+              <img class="utility-help" src="img/icon-help-white.png">
+            </a>
+            <img class= "right right-utility-spacer" src="img/spacer-menu.png">
           </div>
-          <div class="col-md-1">
-            <img class="utility-settings" src="img/icon-settings-white.png">
+          <div class="col-md-1 col-xs-2">
+            <a href="#">
+              <img class="utility-settings" src="img/icon-settings-white.png">
+            </a>
           </div>
         </div>
       </div>
@@ -50,53 +54,53 @@
     <div class="container-fluid dark-blue menu-nav">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 hidden-xs">
             <img src="img/background-menu.png">
           </div>
           <!-- Dashboard -->
-          <div class="col-md-1">
+          <div class="col-md-1 col-xs-4">
             <a href="#">
               <div class="dashboard icon-dashboard-green"></div>
             </a>
             <div class="dashboard-shadow icon-shadow"></div>
-            <img class="marker" src="img/icon-marker.png">
+            <!--<img class="marker" src="img/icon-marker.png">-->
           </div>
           <!-- Customers -->
-          <div class="col-md-1">
+          <div class="col-md-1 col-xs-4">
             <a href="#">
               <div class="customers icon-customers-green"></div>
             </a>
             <div class="customers-shadow icon-shadow"></div>
           </div>
           <!-- Messages -->
-          <div class="col-md-1">
+          <div class="col-md-1 col-xs-4">
             <a href="#">
               <div class="messages icon-messages-green"></div>
             </a>
             <div class="messages-shadow icon-shadow"></div>
           </div>
           <!-- Promotions -->
-          <div class="col-md-1">
+          <div class="col-md-1 col-xs-4">
             <a href="#">
               <div class="promotions icon-promotions-green"></div>
             </a>
             <div class="promotions-shadow icon-shadow"></div>
           </div>
           <!-- Page creator -->
-          <div class="col-md-1">
+          <div class="col-md-1 col-xs-4">
             <a href="#">
               <div class="page-creator icon-page-creator-green"></div>
             </a>
             <div class="page-creator-shadow icon-shadow"></div>
           </div>
           <!-- Analytics -->
-          <div class="col-md-1">
+          <div class="col-md-1 col-xs-4">
             <a href="#">
               <div class="analytics icon-analytics-green"></div>
             </a>
             <div class="analytics-shadow icon-shadow"></div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 hidden-xs">
             <!-- Placeholder -->
           </div>
         </div>
@@ -109,17 +113,17 @@
     <div class="container">
       <!-- Page title -->
       <div class="row green dashboard-menu">
-        <div class="col-md-9">
-          <h1>Dashboard</h1>
+        <div class="col-md-9 col-xs-12">
+          <h1 class="menu-title">Dashboard</h1>
         </div>
-        <div class="col-md-3">
-          <input>
+        <div class="col-md-3 col-xs-12">
+          <input type="text" class="search">
         </div>
       </div>
       <!-- End page title -->
 
       <!-- Announcements  -->
-      <div class="row border announcements-menu">
+      <div class="row announcements-border announcements-menu">
         <div class="col-md-2">
           <p class="announcement announcements-title">ANNOUNCEMENTS</p>
         </div>
@@ -137,15 +141,17 @@
       <div class="row">
 
         <!-- Sidebar -->
-        <div class="col-md-4">
+        <div class="col-md-4 sidebar-border">
           <!-- Tasks menu -->
           <!-- Row 1 -->
-          <div class="row">
-            <div class="col-md-11">
+          <div class="row tasks-border">
+            <div class="col-md-9">
               <h2>Tasks</h2>
             </div>
-            <div class="col-md-1">
-              <img src="img/icon-settings-grey.png">
+            <div class="col-md-3">
+              <a href="#">
+                <img class= "tasks-settings" src="img/icon-settings-grey.png">
+              </a>
             </div>
           </div>
 
