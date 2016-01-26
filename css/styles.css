@@ -43,7 +43,7 @@ p {
 
 /* Utility nav */
 .left-utility-spacer {
-  margin: 0.5em 0 0 -1em;
+  margin: 0.5em 0 0 0em;
 }
 .right-utility-spacer {
   margin: 0.5em 0 0 0;
@@ -52,10 +52,10 @@ p {
   margin-top: 1em;
 }
 .utility-help {
-  margin: 1em 0 0 1.25em;
+  margin: 0.9em 0 0 1.25em;
 }
 .utility-settings {
-  margin-top: 1em;
+  margin: 0.9em 0 0 0;
 }
 /* End utility nav */
 
@@ -87,20 +87,23 @@ p {
 /* End menu sprites */
 
 /* Menu positioning */
-.menu-nav {
-  padding: 0 0 0 0
-}
 .marker {
   /* placeholder until figure out marker */
 }
+.menu-nav {
+  padding: 0 0 0 0
+}
+.mobile-menu {
+  margin: 0 0 1em 0;
+}
 .dashboard {
-  margin-top: 1em;
+  margin-top: 0.75em;
 }
 .dashboard-shadow {
   margin-top: 1em;
 }
 .customers {
-  margin-top: 1.5em;
+  margin-top: 1.4em;
 }
 .customers-shadow {
   margin-top: 1.5em;
@@ -156,6 +159,21 @@ p {
   border: 1px;
   border-color: #ccc;
   border-style: solid;
+}
+.announcements-button-border {
+  border-top: 0px;
+  border-left: 1px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: #ccc;
+  color: #fe7f13;
+}
+.announcements-button-left {
+  padding: 0.75em 0.5em 0 0;
+}
+.announcements-button-right {
+  padding: 0.75em 0 0 0;
 }
 .announcements-menu {
   margin-top: 2em;
