@@ -150,14 +150,14 @@ p {
 }
 .search {
   border: 0;
-    height: 2.5em;
-    border-radius: 2px;
-    margin: 1.5em 0 1.5em 0;
-    background-image: url("../img/icon-search.png");
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position-x: 95%;
-    background-position-y: 50%;
+  height: 2.5em;
+  border-radius: 2px;
+  margin: 1.5em 0 1.5em 0;
+  background-image: url("../img/icon-search.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position-x: 95%;
+  background-position-y: 50%;
 }
 /* End page title */
 
@@ -367,6 +367,102 @@ p {
 /* End analytics menu */
 
 /* Contacts and Customers */
+.contacts-border {
+  border-top: 1px;
+  border-top-style: solid;
+  border-color: #ccc;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.contacts-wrap {}
+.contacts-label-left {
+  position: absolute;
+  top: 83px;
+  left: 100px;
+}
+.contacts-label-right {
+  position: absolute;
+  top: 83px;
+  left: 318px;
+}
+.contacts-box {
+  border: 1px;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+  padding: 7em 0em 6.5em 0em;
+  margin: 3em 4em 4em 7em;
+  z-index: -1;
+}
+.contacts-avatar {
+  position: absolute;
+  left: 64px;
+  top: -28px;
+  z-index: 50;
+}
+.contacts-textbox {
+  z-index: 100;
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  width: 204px;
+  height: 50px;
+}
+.contacts-graph {
+  position: absolute;
+  left: 6px;
+  top: 96px;
+}
+.influencers-label-left {
+  position: absolute;
+  top: 83px;
+  left: 57px;
+}
+.influencers-label-right {
+  position: absolute;
+  top: 83px;
+  left: 277px;
+}
+.influencers-box {
+  border: 1px;
+    border-color: #ccc;
+    border-radius: 10px;
+    border-style: solid;
+    position: relative;
+    padding: 9em 0em 4.5em 0em;
+    margin: 3em 7em 4em 4em;
+    z-index: -1;
+}
+.influencers-avatar {
+  position: absolute;
+  left: 64px;
+  top: -28px;
+  z-index: 50;
+}
+.influencers-textbox {
+  z-index: 100;
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  width: 205px;
+  height: 50px;
+}
+.influencers-graph {
+  position: absolute;
+  left: 6px;
+  top: 96px;
+}
+.headline {
+  font-size: 16pt;
+  margin: .1em 0 0 0;
+  text-align: center;
+}
+.cutline {
+  font-size: 8pt;
+  margin: 0 0 0 0;
+  text-align: center;
+}
 /* End Contacts and Customers */
 
 /* Did you know */
