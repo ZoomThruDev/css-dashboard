@@ -53,20 +53,18 @@
     <!-- Menu nav -->
     <div class="container-fluid dark-blue menu-nav">
       <div class="container">
-        <!-- Desktop menu -->
         <div class="row">
           <div class="hidden-xs hidden-sm col-md-3">
             <img src="img/background-menu.png">
           </div>
           <!-- Dashboard -->
-          <div class="col-xs-4 col-sm-2 col-md-1">
+          <div class="col-xs-4 col-sm-2 col-md-1 marker1-active">
             <a href="#">
               <div class="dashboard icon-dashboard-green"></div>
             </a>
             <div class="dashboard-shadow icon-shadow"></div>
             <!-- Marker -->
-            <div class="hidden-xs hidden-sm marker">
-              <img src="img/icon-marker.png">
+            <div class="hidden-xs hidden-sm">
             </div>
           </div>
           <!-- Customers -->
@@ -75,6 +73,10 @@
               <div class="customers icon-customers-green"></div>
             </a>
             <div class="customers-shadow icon-shadow"></div>
+            <!-- Marker -->
+            <div class="hidden-xs hidden-sm marker">
+              <a href="#" class="marker2"></a>
+            </div>
           </div>
           <!-- Messages -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -82,6 +84,10 @@
               <div class="messages icon-messages-green"></div>
             </a>
             <div class="messages-shadow icon-shadow"></div>
+            <!-- Marker -->
+            <div class="hidden-xs hidden-sm marker">
+              <a href="#" class="marker3"></a>
+            </div>
           </div>
           <!-- Promotions -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -89,6 +95,10 @@
               <div class="promotions icon-promotions-green"></div>
             </a>
             <div class="promotions-shadow icon-shadow"></div>
+            <!-- Marker -->
+            <div class="hidden-xs hidden-sm marker">
+              <a href="#" class="marker4"></a>
+            </div>
           </div>
           <!-- Page creator -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -96,6 +106,10 @@
               <div class="page-creator icon-page-creator-green"></div>
             </a>
             <div class="page-creator-shadow icon-shadow"></div>
+            <!-- Marker -->
+            <div class="hidden-xs hidden-sm marker">
+              <a href="#" class="marker5"></a>
+            </div>
           </div>
           <!-- Analytics -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -103,6 +117,10 @@
               <div class="analytics icon-analytics-green"></div>
             </a>
             <div class="analytics-shadow icon-shadow"></div>
+            <!-- Marker -->
+            <div class="hidden-xs hidden-sm marker">
+              <a href="#" class="marker6"></a>
+            </div>
           </div>
           <div class="hidden-xs hidden-sm col-md-3">
             <!-- Placeholder -->
@@ -321,24 +339,23 @@
         <!-- End sidebar -->
 
         <!-- Main content -->
-        <div class="col-md-8">
+        <div class="col-xs-12 col-sm-8 col-md-8 content-border">
           <!-- Analytics menu -->
           <div class="row">
             <!-- Title -->
             <div class="col-md-8">
               <h2>Analytics</h2>
             </div>
-
             <!-- Graph panel -->
             <div class="row">
               <!-- Left panel -->
-              <div class="col-md-9">
+              <div class="col-md-8">
                 <!-- Title -->
                 <div class="row">
-                  <div class="col-md-6">
-                    <h5>ACTIVITY</h5>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                    <h5 class="graph-title-activity">ACTIVITY</h5>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="dropdown right">
                       <button>Dropdown</button>
                     </div>
@@ -346,21 +363,28 @@
                 </div>
                 <!-- End title -->
 
-                <!-- Large graph -->
+                <!-- Bar graph -->
                 <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/graph-bar.png">
+                  <div class="col-md-11">
+                    <img class="graph-activity" src="img/graph-bar.png">
                   </div>
                 </div>
               </div>
               <!-- End left panel -->
 
+              <!-- Spacer image -->
+              <div class="hidden-xs hidden-sm col-md-1">
+                <div class="col-md-2">
+                  <img class="spacer-analytics"src="img/spacer-analytics.png">
+                </div>
+              </div>
+
               <!-- Right panel -->
               <div class="col-md-3">
-                <h5>CHANNELS</h5>
-                <img src="img/graph-channels.png">
-                <h5>REFERRALS</h5>
-                <img src="img/graph-referrals.png">
+                <h5 class="graph-title-channels">CHANNELS</h5>
+                <img class="graph-channels" src="img/graph-channels.png">
+                <h5 class="graph-title-referrals">REFERRALS</h5>
+                <img class="graph-referrals" src="img/graph-referrals.png">
               </div>
               <!-- End right panel -->
             </div>
@@ -368,7 +392,10 @@
 
             <!-- Social media key-->
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-2 social-border social-empty">
+                <!-- Placeholder -->
+              </div>
+              <div class="col-md-8 social-border social-key">
                 <form>
                   <label class="checkbox-inline">
                     <input type="checkbox"><img src="img/facebook.png">
@@ -384,14 +411,17 @@
                   </label>
                 </form>
               </div>
+              <div class="col-md-2 social-border">
+                <!-- Placeholder -->
+              </div>
             </div>
 
             <!-- Contacts and customers -->
             <div class="row">
               <div class="col-md-6 left">
                 <img src="img/label-left.png">
-                <img src="img/label-right.png">
                 <img src="img/avatar-person-green.png">
+                <img src="img/label-right.png">
                 <div class="container light-blue">
                   <p>75 CONTACTS</p>
                   <p>4 INFLUENCERS</p>

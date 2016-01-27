@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'myriad-pro-regular';
-  src:  url('myriad-pro-regular.ttf') format('ttf'),
+  src:  url('../fonts/myriad-pro-regular.ttf') format('ttf'),
 }
 a {
   color: #2398f4;
@@ -10,7 +10,7 @@ a:hover {
   text-decoration: underline;
 }
 body {
-  font-family: "myriad-pro-regular" sans-serif;
+  font-family: "myriad-pro-regular", sans-serif;
 }
 h1 {
   color: #fff;
@@ -87,7 +87,11 @@ p {
 /* End menu sprites */
 
 /* Menu positioning */
-.marker {
+.marker1{
+  visibility: hidden;
+}
+.marker1:active{
+  background-image: image(../img/icon-marker.png);
   position: absolute;
   top: 94px;
   left: 23px;
@@ -313,14 +317,51 @@ p {
 /* End recommendations menu */
 
 /* Analytics menu */
-
+.content-border {
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: #ccc;
+}
 /* Bar graph */
+.graph-activity {
+  padding: 0 0 2em 1em;
+  width: 100%;
+  height: 100%;
+}
+.graph-title-activity {
+  padding: 1em 0 2em 3em;
+}
+.spacer-analytics {
+  padding: 1em 0 0 0;
+}
+.dropdown {
+  padding: 0.5em 1em 0 0;
+}
 /* End bar graph */
 
 /* Channels and referrals */
+.graph-channels {
+  padding: 1em 0 0 1em;
+}
+.graph-title-channels {
+  padding: 1em 0 0 1em;
+}
+.graph-referrals {
+  padding: 1em 0 0 1em;
+}
+.graph-title-referrals {
+  padding: 1em 0 0 1em;
+}
 /* End channels and referrals */
 
 /* Social media key */
+.social-key {
+  text-align: center;
+  padding: 1em 0 2em 0;
+}
 /* End Social media key */
 
 /* End analytics menu */
