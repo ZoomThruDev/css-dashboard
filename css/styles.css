@@ -370,6 +370,8 @@ p {
 .contacts-border {
   border-top: 1px;
   border-top-style: solid;
+  border-bottom: 1px;
+  border-bottom-style: solid;
   border-color: #ccc;
   margin-left: 0px;
   margin-right: 0px;
@@ -467,9 +469,16 @@ p {
 
 /* Did you know */
 .slider {
-  border-radius: 5px;
+  border-radius: 2px;
   padding-top: 2em;
   padding-bottom: 1em;
+  margin: 1.5em 1em 2em 1em;
+}
+.slider-button-left {
+  padding: 0;
+}
+.slider-button-right {
+  padding-left: 3em;
 }
 /* End Did you know */
 
