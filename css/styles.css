@@ -37,6 +37,7 @@ p {
 .dark-blue { background-color: #114570; }
 .green { background-color: #31cc66; }
 .light-blue { background-color: #2398f4; }
+.light-grey { background-color: #f5f5f5; }
 .left { float: left; }
 .right { float: right; }
 /* End global classes */
@@ -87,11 +88,7 @@ p {
 /* End menu sprites */
 
 /* Menu positioning */
-.marker1{
-  visibility: hidden;
-}
-.marker1:active{
-  background-image: image(../img/icon-marker.png);
+.marker {
   position: absolute;
   top: 94px;
   left: 23px;
@@ -428,13 +425,13 @@ p {
 }
 .influencers-box {
   border: 1px;
-    border-color: #ccc;
-    border-radius: 10px;
-    border-style: solid;
-    position: relative;
-    padding: 9em 0em 4.5em 0em;
-    margin: 3em 7em 4em 4em;
-    z-index: -1;
+  border-color: #ccc;
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+  padding: 9em 0em 4.5em 0em;
+  margin: 3em 7em 4em 4em;
+  z-index: -1;
 }
 .influencers-avatar {
   position: absolute;
@@ -483,7 +480,78 @@ p {
 /* End Did you know */
 
 /* Promotions */
+.promo {
+  margin-bottom: 5em
+}
+.promo-box {
+  border: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ccc;
+  background-color: white;
+  position: relative;
+  padding: 6em 0em 5.5em 0;
+  margin: 2em 2em 2em 1em;
+  z-index: 1;
+}
+.promo-image1 {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+.promo-image2 {
+  position: absolute;
+  left: 20px;
+  top: -11px;
+}
+.promo-image3 {
+  position: absolute;
+  left: 54px;
+  top: 1px;
+}
 /* End Promotions */
 
 /* Status bar */
+.status-bar {
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: #999;
+}
+.status-pull-up {
+  padding: 1em 0 1em 0;
+}
+.status-text {
+  padding: 0.75em 0 1em 0;
+}
+.status-border-left {
+  border-left: 1px;
+  border-left-style: solid;
+  border-left-color: #bbb;
+}
+.status-border-right {
+  border-right: 1px;
+  border-right-style: solid;
+  border-right-color: #bbb;
+}
+.logout {
+  margin: 0.75em 0 0 -3em;
+}
+.avatar {
+  margin: -1em 0 0 0;
+}
+.tutorials {
+  color: #bbb;
+  padding: 0.5em 0 0 2em;
+}
+.support {
+  color: #bbb;
+  padding: 0.5em 2em 0 2em;
+}
+.blog {
+  color: #bbb;
+  padding: 0.5em 0 0 2em;
+}
+.status-bar-spacer {
+  padding: 0.5em 0 0 0;
+}
 /* End Status bar */

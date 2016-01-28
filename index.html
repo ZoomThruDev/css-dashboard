@@ -64,7 +64,8 @@
             </a>
             <div class="dashboard-shadow icon-shadow"></div>
             <!-- Marker -->
-            <div class="hidden-xs hidden-sm">
+            <div class="hidden-xs hidden-sm marker">
+              <img src="img/icon-marker.png">
             </div>
           </div>
           <!-- Customers -->
@@ -73,10 +74,6 @@
               <div class="customers icon-customers-green"></div>
             </a>
             <div class="customers-shadow icon-shadow"></div>
-            <!-- Marker -->
-            <div class="hidden-xs hidden-sm marker">
-              <a href="#" class="marker2"></a>
-            </div>
           </div>
           <!-- Messages -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -84,10 +81,6 @@
               <div class="messages icon-messages-green"></div>
             </a>
             <div class="messages-shadow icon-shadow"></div>
-            <!-- Marker -->
-            <div class="hidden-xs hidden-sm marker">
-              <a href="#" class="marker3"></a>
-            </div>
           </div>
           <!-- Promotions -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -95,10 +88,6 @@
               <div class="promotions icon-promotions-green"></div>
             </a>
             <div class="promotions-shadow icon-shadow"></div>
-            <!-- Marker -->
-            <div class="hidden-xs hidden-sm marker">
-              <a href="#" class="marker4"></a>
-            </div>
           </div>
           <!-- Page creator -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -106,10 +95,6 @@
               <div class="page-creator icon-page-creator-green"></div>
             </a>
             <div class="page-creator-shadow icon-shadow"></div>
-            <!-- Marker -->
-            <div class="hidden-xs hidden-sm marker">
-              <a href="#" class="marker5"></a>
-            </div>
           </div>
           <!-- Analytics -->
           <div class="col-xs-4 col-sm-2 col-md-1">
@@ -117,10 +102,6 @@
               <div class="analytics icon-analytics-green"></div>
             </a>
             <div class="analytics-shadow icon-shadow"></div>
-            <!-- Marker -->
-            <div class="hidden-xs hidden-sm marker">
-              <a href="#" class="marker6"></a>
-            </div>
           </div>
           <div class="hidden-xs hidden-sm col-md-3">
             <!-- Placeholder -->
@@ -472,47 +453,63 @@
       <!-- End content -->
 
       <!-- Promo  -->
-      <div class="row light-blue">
-        <div class="col-md-4">
-          <img src="img/watch-what-you-say.png">
+      <div class="row light-blue promo">
+        <div class="col-xs-12 col-md-4">
+          <div class="promo-wrap">
+            <div class="promo-box">
+              <img class="promo-image1" src="img/watch-what-you-say.png">
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="img/see-how-others.png">
+        <div class="col-xs-12 col-md-4">
+          <div class="promo-wrap">
+            <div class="promo-box">
+              <img class="promo-image2" src="img/see-how-others.png">
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="img/version-2.0.png"
+        <div class="col-xs-12 col-md-4">
+          <div class="promo-wrap">
+            <div class="promo-box">
+              <img class="promo-image3" src="img/version-2.0.png">
+            </div>
+          </div>
         </div>
       </div>
-      <!-- End promo -->
     </div>
+      <!-- End promo -->
     <!-- End Page contents -->
 
     <!-- Status bar -->
-    <div class="container-fluid">
+    <div class="container-fluid light-grey status-bar">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <p class="status-bar-links">Tutorials</p>
-            <img src="img/spacer-status-bar.png">
-            <p class="status-bar-links">Support</p>
-            <img src="img/spacer-status-bar.png">
-            <p class="status-bar-links">Blog</p>
+          <div class="col-md-1">
+            <p class="tutorials">Tutorials</p>
           </div>
-          <div class="col-md-6">
-            <h5><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</h5>
-            <img class="right" src="img/icon-pull-up.png">
+          <div class="col-md-1">
+            <img class="status-bar-spacer left" src="img/spacer-status-bar.png">
+            <p class="support">Support</p>
+          </div>
+          <div class="col-md-1">
+            <img class="status-bar-spacer left" src="img/spacer-status-bar.png">
+            <p class="blog">Blog</p>
+          </div>
+          <div class="status-border-left col-md-5">
+            <h5 class="status-text"><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</h5>
+          </div>
+          <div class="status-border-right col-md-1">
+            <img class="status-pull-up right" src="img/icon-pull-up.png">
           </div>
           <div class="col-md-1">
             <img src="img/avatar-with-box.png">
-            <p><a>Logout</a></p>
           </div>
-          <div class="col-md-1">
-            <img src="img/avatar-facebook.png">
-            <img src="img/avatar-twitter.png">
-            <img src="img/avatar-foursquare.png">
-            <img src="img/avatar-youtube.png">
-          </div>
-          <div class="col-md-1">
+          <div class="col-md-2">
+            <p class="logout"><a>Logout</a></p>
+            <img class="right avatar" src="img/avatar-youtube.png">
+            <img class="right avatar" src="img/avatar-foursquare.png">
+            <img class="right avatar" src="img/avatar-twitter.png">
+            <img class="right avatar" src="img/avatar-facebook.png">
           </div>
         </div>
       </div>
