@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'myriad-pro-regular';
-  src:  url('../fonts/myriad-pro-regular.ttf') format('ttf'),
+  src:  url('../fonts/myriad-pro-regular.ttf') format('ttf');
 }
 a {
   color: #2398f4;
